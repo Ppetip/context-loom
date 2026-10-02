@@ -1,0 +1,34 @@
+{
+  "budget": 10,
+  "chunks": [
+    {
+      "id": "rules",
+      "source": "policy",
+      "text": "Synthetic support policy: verify before refund.",
+      "units": 2,
+      "value": 2,
+      "required": true
+    },
+    {
+      "id": "long",
+      "source": "history",
+      "text": "Synthetic lengthy low-value history.",
+      "units": 8,
+      "value": 4
+    },
+    {
+      "id": "brief",
+      "source": "history",
+      "text": "Synthetic short history summary.",
+      "units": 3,
+      "value": 3
+    },
+    {
+      "id": "ticket",
+      "source": "request",
+      "text": "Synthetic request: package arrived damaged.",
+      "units": 5,
+      "value": 8
+    }
+  ]
+}

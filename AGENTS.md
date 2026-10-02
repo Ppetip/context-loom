@@ -1,0 +1,1 @@
+Read README.md and STATUS.md. Preserve user work. Use only explicitly authorized inputs. Run python -m unittest discover -s tests -v and python verify_demos.py after changes. No paid API calls or external tool execution. Keep private inputs, credentials and generated reports out of Git. Update STATUS.md with observed evidence. License original code GPL-3.0-only.
