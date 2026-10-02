@@ -32,7 +32,7 @@ The CLI reads one explicitly named UTF-8 JSON file, capped at 1 MiB. Duplicate J
 
 ## Evidence and next steps
 
-9 local tests and 3 CLI contracts pass. Tests include 80 small generated problems checked against an independent exhaustive subset search, mandatory-source constraints, deterministic ties, strict JSON and input preservation. These are correctness tests, not a retrieval benchmark. Hosted checks are pending initial publication.
+9 local tests and 3 CLI contracts pass. Tests include 80 small generated problems checked against an independent exhaustive subset search, mandatory-source constraints, deterministic ties, strict JSON and input preservation. These are correctness tests, not a retrieval benchmark. All four Windows/Linux Python 3.11/3.13 jobs passed on GitHub Actions. [Hosted verification](https://github.com/Ppetip/context-loom/actions/runs/36965526002).
 
 Next: an explicit tokenizer adapter, independently labeled retrieval cases and a quality comparison using held-out tasks. No paid provider integration is enabled.
 
